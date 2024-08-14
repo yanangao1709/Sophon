@@ -1,7 +1,9 @@
 # Sophon
 An online transmission framework for high-dimensional entanglement in quantum networks
 
-# "./QNEnv/QNModel.py"  stores the initial topology and requests information. We can execute "./Topology/RouteGenerator.py" to generate each request's candidate route sets, route_len, and route_hop. The codes are:
+# prepare initial request sets and generate candidate route sets
+"./QNEnv/QNModel.py"  stores the initial topology and requests information. We can execute "./Topology/RouteGenerator.py" to generate each request's candidate route sets, route_len, and route_hop. The codes are:
+```shell
 G = draw(topology_myself_data_path)
 ROUTES = []
 ROUTES_LEN = []
@@ -14,5 +16,6 @@ for r in REQUESTSET:
 print(ROUTES)
 print(ROUTES_LEN)
 print(ROUTES_HOPS)
-# After obtaining the candidate route sets, comment on the above codes in case the repeated execution.
+'''
+After obtaining the candidate route sets, comment on the above codes in case the repeated execution.
 
