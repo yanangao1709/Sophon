@@ -1,5 +1,8 @@
 # Sophon
-An online transmission framework for high-dimensional entanglement in quantum networks
+An online transmission framework for high-dimensional entanglement in quantum networks.
+**Sophon contains two parts: training and deploying**, so the following USER MANUAL demonstrates the contents of these two aspects.
+## Self-made Topology
+
 
 # prepare initial request sets and generate candidate route sets
 "./QNEnv/QNModel.py"  stores the initial topology and requests information. We can execute "./Topology/RouteGenerator.py" to generate each request's candidate route sets, route_len, and route_hop. The codes are:
