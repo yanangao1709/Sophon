@@ -6,7 +6,7 @@ An online transmission framework for high-dimensional entanglement in quantum ne
 ## Requirements
 - python
 - torch
-- [gurobi]([https://www.gurobi.com/downloads/request-an-evaluation-license/?utm_source=google&utm_medium=cpc&utm_campaign=2024+na+googleads+request+an+evaluation+license&campaignid=193283256&adgroupid=51266130904&creative=601650357807&keyword=gurobipy&matchtype=e&_bn=g&gad_source=1&gclid=Cj0KCQjwq_G1BhCSARIsACc7NxofDNZjgmZVqlw7PuCsPqacAqqLqt7vJC24x2u_CyN4yM7LUmwxRHsaAt9KEALw_wcB]
+- [gurobi](https://www.gurobi.com/downloads/request-an-evaluation-license/?utm_source=google&utm_medium=cpc&utm_campaign=2024+na+googleads+request+an+evaluation+license&campaignid=193283256&adgroupid=51266130904&creative=601650357807&keyword=gurobipy&matchtype=e&_bn=g&gad_source=1&gclid=Cj0KCQjwq_G1BhCSARIsACc7NxofDNZjgmZVqlw7PuCsPqacAqqLqt7vJC24x2u_CyN4yM7LUmwxRHsaAt9KEALw_wcB)
 
 ## Topology
 **(1)** The topology is self-made, and the data is in the file *"./Topology/topology.csv"*.    
