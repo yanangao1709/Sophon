@@ -1,6 +1,8 @@
 # Sophon
 An online transmission framework for high-dimensional entanglement in quantum networks.  
 
+Pytorch implementations of Sophon, including the training process and the execution of Sophon with the comparison methods.   
+
 **Sophon contains two parts: training and deploying**, so the following USER MANUAL demonstrates the details of these two aspects.
 
 ## Requirements
@@ -17,7 +19,7 @@ An online transmission framework for high-dimensional entanglement in quantum ne
 **(2)** We can generate the candidate route set, the route length, and the hop number of a route for each request by executing the codes in *"./Topology/RouteGenerator.py"*.  
 **(3)** After obtaining the candidate route sets, etc., comment on the codes in case of repeated calculation.  
 
-## Train
+## Quick Start (Train)
 We can train Sophon by 
 ```shell
 $ python main.py
