@@ -1,8 +1,13 @@
 # Sophon
 An online transmission framework for high-dimensional entanglement in quantum networks.  
 
-**Sophon contains two parts: training and deploying**, so the following USER MANUAL demonstrates the contents of these two aspects.
-## Self-made Topology
+**Sophon contains two parts: training and deploying**, so the following USER MANUAL demonstrates the details of these two aspects.
+
+## Topology
+The topology is self-made as the following:
+<div align="center">
+  <img src="https://github.com/yanangao1709/Sophon/blob/main/Topology/Topology.png">
+</div>
 
 
 # prepare initial request sets and generate candidate route sets
