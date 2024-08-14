@@ -4,11 +4,11 @@ An online transmission framework for high-dimensional entanglement in quantum ne
 **Sophon contains two parts: training and deploying**, so the following USER MANUAL demonstrates the details of these two aspects.
 
 ## Topology
-The topology is self-made as the following:
+(1) The topology is self-made, and the data is in the file "./Topology/topology.csv"    
+(2) The topology is self-made as the following:
 <div align="center">
   <img src="https://github.com/yanangao1709/Sophon/blob/main/Topology/Topology.png">
 </div>
-
 
 # prepare initial request sets and generate candidate route sets
 "./QNEnv/QNModel.py"  stores the initial topology and requests information. We can execute "./Topology/RouteGenerator.py" to generate each request's candidate route sets, route_len, and route_hop. The codes are:
