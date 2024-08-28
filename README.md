@@ -3,7 +3,7 @@ An online transmission framework for high-dimensional entanglement in quantum ne
 
 Pytorch implementations of Sophon, including the training process and the execution of Sophon with the comparison methods.   
 
-**Sophon contains two parts: training and deploying**, so the following USER MANUAL demonstrates the details of these two aspects.
+**Sophon contains two parts: training and deploying**, the following USER MANUAL demonstrates the details of these two aspects.
 
 ## Requirements
 - [python 3.8](https://www.python.org/downloads/release/python-380/)
