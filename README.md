@@ -28,5 +28,41 @@ We can train Sophon by
 $ python main.py
 ```
 
+## Code Roadmap
+
+The following file diagram depicts an outline of the code, with explanations
+regarding key modules in our code. 
+
+```
+Sophon
+└───documentation (includes some figures from the paper)   
+└───results (where local results are stored)   
+└───scripts (runnable scripts that are described above)  
+└───src (main code folder)
+│   └───config (configuration files described above)
+│   └───envs (used environments, includes multi_cart (Coupled Multi Cart Pole), multi_particle (Bounded Cooperative Navigation), payoff_matrix....
+│   └───reward_decomposition (includes the full implementation for our RD method)
+│   └───learners (the main learning loop, bellman updates)
+│   │   │   q_learner (a modified q_learner that supports local rewards and rweard decomposition)
+│   │   │   ...
+│   └───modules (NN module specifications)
+│   │   └───mixers (Mixing layers specifications)
+│   │   │   │   gcn (a GCN implementation for LOMAQ, occasionly used)
+│   │   │   │   lomaq.py (The main specification of our mixing networks)
+│   │   │   │   ...
+│   └───controllers (controls a set of agent utlity networks)
+│   │   │   hetro_controller.py (an agent controller that doesn't implement parameter sharing)
+│   │   │   ...
+│   └───components (general components for LOMAQ)
+│   │   │   locality_graph.py (A module that efficiently represents the graph of agents)
+│   │   │   ...
+│   │   main.py (for running a certain env-alg pair with default parameters)
+│   │   multi_main.py (for running a certain test with multiple runs)
+│   │   single_main.py (for running arun within a test)
+│   │   offline_plot.py (for plotting results)
+│   │   ...
+│   README.md (you are here)
+│   requirements.txt (all the necessary packages for running the code)
+
 
 
