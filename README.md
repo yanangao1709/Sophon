@@ -1,9 +1,9 @@
 # Sophon
 An online transmission framework for high-dimensional entanglement in quantum networks.  
 
-Pytorch implementations of Sophon, including the training process and the execution of Sophon with the comparison methods.   
+Python implementations of Sophon, including Sophon's training process, the deployed Sophon that compared with the baselines, the roubstness verification of Sophon.   
 
-**Sophon contains two parts: training and deploying**, the following USER MANUAL demonstrates the details of these two aspects.
+**Sophon contains two parts: train and deployment**, the following USER MANUAL demonstrates the details of these two aspects.
 
 ## Requirements
 - [python 3.8](https://www.python.org/downloads/release/python-380/)
@@ -26,6 +26,11 @@ $ pip install -r requirements.txt
 We can train Sophon by 
 ```shell
 $ python main.py
+```
+## Quick Start (Deployment)
+We can run the deployment of Sophon by
+```shell
+$ python ./Comparison/main_compare.py
 ```
 
 ## Code Roadmap
