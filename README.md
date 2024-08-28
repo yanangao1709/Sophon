@@ -40,7 +40,24 @@ regarding key modules in our code.
 
 ```
 Sophon
-└───documentation (includes some figures from the paper)   
+└───Comparison (the comparison with baselines, including of Deployment codes, Trained models, data, results and figures)
+│   └───SophonDeploy (Sophon deployment implementation)
+│   │   └───Fixed (Fixed deployment scheme)
+│   │   │   │   GlobalEnvFixed (global environment for Fixed_Sophon)
+│   │   │   │   ILPFixed (brand-and-bound algorithm and LP solving for Fixed_Sophon)
+│   │   │   │   LocalEnvFixed (local environment for Fixed_Sophon)
+│   │   │   │   QNTopologyModelFixed (control the updating of the request pool for Fixed_Sophon)
+│   │   └───Flexible (Flexible deployment scheme)
+│   │   │   │   GlobalEnvFlexible (global environment for Flexible_Sophon)
+│   │   │   │   ILPFlexible (brand-and-bound algorithm and LP solving for Flexible_Sophon)
+│   │   │   │   LocalEnvFlexible (local environment for Flexible_Sophon)
+│   │   │   │   QNTopologyModelFlexible (control the updating of the request pool for Flexible_Sophon)
+│   │   │   OneByOneCompare ()
+
+
+
+
+  
 └───results (where local results are stored)   
 └───scripts (runnable scripts that are described above)  
 └───src (main code folder)
@@ -66,8 +83,9 @@ Sophon
 │   │   single_main.py (for running arun within a test)
 │   │   offline_plot.py (for plotting results)
 │   │   ...
-│   README.md (you are here)
-│   requirements.txt (all the necessary packages for running the code)
+└───main.py (for running a train process of Sophon)
+└───README.md (you are here)
+└───requirements.txt (all the necessary packages for running the code)
 
 
 
