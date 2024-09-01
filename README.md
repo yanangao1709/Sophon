@@ -94,6 +94,7 @@ Sophon
 └───Topology (topology generation)
 │   │   RouteGenerator (generate the route information by using K_shortest_paths.py)
 │   │   k_shortest_paths (generate the top-k candidate routes for the requests)
+|   |   TopologyGenerator (generate quantum network topology by using NetworkX and Waxman)
 │   │   topology.csv (topology information)
 └───Transmitting (transmitting stage)
 │   │   BranchBound (brand-and-bounch algorithm example)
