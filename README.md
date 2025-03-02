@@ -15,7 +15,7 @@ $ pip install -r requirements.txt
 
 ## Topology
 **(1)** The topology is self-made, and the data is in the file *"./Topology/topology.csv"*.    
-**(2)** The topology image is in the file *"./Topology/Topology.png"*.
+**(2)** The topology image is in the file *"./Topology/Topology.png"*.  
 **(3)** The topology and the requests are generated according to the following steps:
 a. go to "Sophon/Topology/TopologyGenerator.py";  \\
 b. set the variable "NUM_NODE" to determine the topology size; \\
