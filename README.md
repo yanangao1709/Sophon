@@ -16,13 +16,13 @@ $ pip install -r requirements.txt
 ## Topology
 **(1)** The topology is self-made, and the data is in the file *"./Topology/topology.csv"*.    
 **(2)** The topology image is in the file *"./Topology/Topology.png"*.  
-**(3)** The topology and the requests are generated according to the following steps:
-a. go to "Sophon/Topology/TopologyGenerator.py";  \\
-b. set the variable "NUM_NODE" to determine the topology size; \\
-c. run the ".py" to generate the topology information in the "./Nodes/" file, and copy the "topology.csv" file to "Sophon/Topology/"; \\
-d. create the "QNModel.py" in "Sophon/QNEnv/" for this topology; \\
-e. modify the parameter "node_num" in "Sophon/Config/TopologyConfig.py"; \\
-f. run the file "Sophon/Topology/RouteGenerator.py" to obtain "REQUESTSET, D_VOLUMN, ROUTES, ROUTES_LEN, ROUTES_HOPS, LINK_LENS, NODE_CPA, H_RKN"; \\
+**(3)** The topology and the requests are generated according to the following steps:  
+a. go to "Sophon/Topology/TopologyGenerator.py";  
+b. set the variable "NUM_NODE" to determine the topology size;  
+c. run the ".py" to generate the topology information in the "./Nodes/" file, and copy the "topology.csv" file to "Sophon/Topology/";  
+d. create the "QNModel.py" in "Sophon/QNEnv/" for this topology;  
+e. modify the parameter "node_num" in "Sophon/Config/TopologyConfig.py";  
+f. run the file "Sophon/Topology/RouteGenerator.py" to obtain "REQUESTSET, D_VOLUMN, ROUTES, ROUTES_LEN, ROUTES_HOPS, LINK_LENS, NODE_CPA, H_RKN";  
 g. put the outputs to "QNModel.py".
 
 
